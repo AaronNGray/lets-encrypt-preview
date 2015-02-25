@@ -1,0 +1,96 @@
+warning: no files found matching '*.sh' under directory 'letsencrypt'
+SWIG/_m2crypto_wrap.c:6368:5: warning: return from incompatible pointer type
+SWIG/_m2crypto_wrap.c:3571:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:3597:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:3877:9: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4095:5: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4107:5: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4224:5: warning: ‘saltlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4224:5: warning: ‘passlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4296:5: warning: ‘klen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4344:5: warning: ‘klen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4382:10: warning: ‘dlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4420:10: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4505:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4735:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4828:8: warning: ‘pklen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4889:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:4908:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5006:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5025:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5044:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5063:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5087:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5112:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5137:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5162:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5419:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5438:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5457:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5549:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5584:20: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5579:20: warning: ‘rlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5589:9: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5610:10: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5630:8: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5630:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5769:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:5838:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:6041:7: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:6086:7: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7008:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7043:10: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7038:10: warning: ‘rlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7048:9: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7070:10: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7091:8: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c:7091:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: GMP or MPIR library not found; Not building Crypto.PublicKey._fastmath.
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+warning: no files found matching '*.png' under directory 'docs'
+warning: no files found matching '*.css' under directory 'docs'
+warning: no files found matching '*.html' under directory 'docs'
+warning: no files found matching '*.js' under directory 'docs'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.orig' found anywhere in distribution
+warning: no previously-included files matching '*.rej' found anywhere in distribution
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*' found under directory 'vectors'
