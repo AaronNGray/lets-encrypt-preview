@@ -1,0 +1,1218 @@
+running install
+running bdist_egg
+running egg_info
+creating letsencrypt.egg-info
+writing requirements to letsencrypt.egg-info/requires.txt
+writing letsencrypt.egg-info/PKG-INFO
+writing top-level names to letsencrypt.egg-info/top_level.txt
+writing dependency_links to letsencrypt.egg-info/dependency_links.txt
+writing entry points to letsencrypt.egg-info/entry_points.txt
+writing manifest file 'letsencrypt.egg-info/SOURCES.txt'
+reading manifest file 'letsencrypt.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.sh' under directory 'letsencrypt'
+writing manifest file 'letsencrypt.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-i686/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/letsencrypt
+copying letsencrypt/__init__.py -> build/lib/letsencrypt
+creating build/lib/letsencrypt/acme
+copying letsencrypt/acme/other_test.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/__init__.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/messages.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/util.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/errors.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/jose_test.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/util_test.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/other.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/interfaces.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/jose.py -> build/lib/letsencrypt/acme
+copying letsencrypt/acme/messages_test.py -> build/lib/letsencrypt/acme
+creating build/lib/letsencrypt/client
+copying letsencrypt/client/recovery_token.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/reverter.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/client_authenticator.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/constants.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/standalone_authenticator.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/network.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/client.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/log.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/__init__.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/configuration.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/revoker.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/challenge_util.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/crypto_util.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/errors.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/augeas_configurator.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/auth_handler.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/le_util.py -> build/lib/letsencrypt/client
+copying letsencrypt/client/interfaces.py -> build/lib/letsencrypt/client
+creating build/lib/letsencrypt/client/apache
+copying letsencrypt/client/apache/parser.py -> build/lib/letsencrypt/client/apache
+copying letsencrypt/client/apache/obj.py -> build/lib/letsencrypt/client/apache
+copying letsencrypt/client/apache/dvsni.py -> build/lib/letsencrypt/client/apache
+copying letsencrypt/client/apache/__init__.py -> build/lib/letsencrypt/client/apache
+copying letsencrypt/client/apache/configurator.py -> build/lib/letsencrypt/client/apache
+creating build/lib/letsencrypt/client/display
+copying letsencrypt/client/display/ops.py -> build/lib/letsencrypt/client/display
+copying letsencrypt/client/display/__init__.py -> build/lib/letsencrypt/client/display
+copying letsencrypt/client/display/util.py -> build/lib/letsencrypt/client/display
+copying letsencrypt/client/display/enhancements.py -> build/lib/letsencrypt/client/display
+copying letsencrypt/client/display/revocation.py -> build/lib/letsencrypt/client/display
+creating build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/log_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/reverter_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/standalone_authenticator_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/client_authenticator_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/crypto_util_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/client_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/revoker_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/auth_handler_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/le_util_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/__init__.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/configuration_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/acme_util.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/challenge_util_test.py -> build/lib/letsencrypt/client/tests
+copying letsencrypt/client/tests/recovery_token_test.py -> build/lib/letsencrypt/client/tests
+creating build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/configurator_test.py -> build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/obj_test.py -> build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/__init__.py -> build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/util.py -> build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/dvsni_test.py -> build/lib/letsencrypt/client/tests/apache
+copying letsencrypt/client/tests/apache/parser_test.py -> build/lib/letsencrypt/client/tests/apache
+creating build/lib/letsencrypt/client/tests/display
+copying letsencrypt/client/tests/display/revocation_test.py -> build/lib/letsencrypt/client/tests/display
+copying letsencrypt/client/tests/display/__init__.py -> build/lib/letsencrypt/client/tests/display
+copying letsencrypt/client/tests/display/enhancements_test.py -> build/lib/letsencrypt/client/tests/display
+copying letsencrypt/client/tests/display/ops_test.py -> build/lib/letsencrypt/client/tests/display
+copying letsencrypt/client/tests/display/util_test.py -> build/lib/letsencrypt/client/tests/display
+creating build/lib/letsencrypt/scripts
+copying letsencrypt/scripts/__init__.py -> build/lib/letsencrypt/scripts
+copying letsencrypt/scripts/main.py -> build/lib/letsencrypt/scripts
+creating build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/authorization.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/authorizationRequest.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/certificate.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/certificateRequest.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/challenge.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/challengeRequest.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/challengeobject.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/defer.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/error.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/jwk.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/responseobject.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/revocation.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/revocationRequest.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/signature.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/acme/schemata/statusRequest.json -> build/lib/letsencrypt/acme/schemata
+copying letsencrypt/client/apache/options-ssl.conf -> build/lib/letsencrypt/client/apache
+creating build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/cert-san.pem -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/cert.b64jose -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/cert.pem -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/csr-san.der -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/csr-san.pem -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/csr.der -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/csr.pem -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/rsa256_key.pem -> build/lib/letsencrypt/client/tests/testdata
+copying letsencrypt/client/tests/testdata/rsa512_key.pem -> build/lib/letsencrypt/client/tests/testdata
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/sites -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/apache2.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/envvars -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/ports.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/other-vhosts-access-log.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/security.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/serve-cgi-bin.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/other-vhosts-access-log.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/security.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/serve-cgi-bin.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available/ssl.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available/ssl.load -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available/000-default.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available/default-ssl.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled/000-default.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/sites -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/apache2.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/envvars -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/ports.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/other-vhosts-access-log.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/security.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/serve-cgi-bin.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/other-vhosts-access-log.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/security.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/serve-cgi-bin.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available/ssl.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available/ssl.load -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/000-default.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/default-ssl.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/encryption-example.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/letsencrypt.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+creating build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/000-default.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/encryption-example.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/letsencrypt.conf -> build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+creating build/bdist.linux-i686
+creating build/bdist.linux-i686/egg
+creating build/bdist.linux-i686/egg/letsencrypt
+creating build/bdist.linux-i686/egg/letsencrypt/scripts
+copying build/lib/letsencrypt/scripts/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/scripts
+copying build/lib/letsencrypt/scripts/main.py -> build/bdist.linux-i686/egg/letsencrypt/scripts
+creating build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/other_test.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/messages.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+creating build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/certificate.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/revocationRequest.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/authorization.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/challengeRequest.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/authorizationRequest.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/challengeobject.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/responseobject.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/error.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/jwk.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/signature.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/revocation.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/statusRequest.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/certificateRequest.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/challenge.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/schemata/defer.json -> build/bdist.linux-i686/egg/letsencrypt/acme/schemata
+copying build/lib/letsencrypt/acme/util.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/errors.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/jose_test.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/util_test.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/other.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/interfaces.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/jose.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/acme/messages_test.py -> build/bdist.linux-i686/egg/letsencrypt/acme
+copying build/lib/letsencrypt/__init__.py -> build/bdist.linux-i686/egg/letsencrypt
+creating build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/recovery_token.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/reverter.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/client_authenticator.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/constants.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/standalone_authenticator.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/network.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/client.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/log.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client
+creating build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/parser.py -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/obj.py -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/dvsni.py -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/configurator.py -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+copying build/lib/letsencrypt/client/apache/options-ssl.conf -> build/bdist.linux-i686/egg/letsencrypt/client/apache
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/log_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/reverter_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/standalone_authenticator_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/client_authenticator_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/crypto_util_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/client_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/revoker_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/auth_handler_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/le_util_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/configurator_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/obj_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/util.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/dvsni_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/apache/parser_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/apache
+copying build/lib/letsencrypt/client/tests/configuration_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/csr-san.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/csr.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/rsa512_key.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/csr.der -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/ports.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/apache2.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/envvars -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/letsencrypt.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/000-default.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled/encryption-example.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-enabled
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/other-vhosts-access-log.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/security.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available/serve-cgi-bin.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-available
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/other-vhosts-access-log.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/security.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled/serve-cgi-bin.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/conf-enabled
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/letsencrypt.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/000-default.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/default-ssl.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available/encryption-example.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/sites-available
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available/ssl.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available/ssl.load -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80/sites -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/two_vhost_80
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/ports.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/apache2.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/envvars -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled/000-default.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-enabled
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/other-vhosts-access-log.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/security.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available/serve-cgi-bin.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-available
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/other-vhosts-access-log.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/security.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled/serve-cgi-bin.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/conf-enabled
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available/000-default.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available/default-ssl.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/sites-available
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available/ssl.conf -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available/ssl.load -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/apache2/mods-available
+copying build/lib/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost/sites -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata/debian_apache_2_4/default_vhost
+copying build/lib/letsencrypt/client/tests/testdata/cert-san.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/cert.b64jose -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/rsa256_key.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/cert.pem -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/testdata/csr-san.der -> build/bdist.linux-i686/egg/letsencrypt/client/tests/testdata
+copying build/lib/letsencrypt/client/tests/acme_util.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/challenge_util_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+copying build/lib/letsencrypt/client/tests/recovery_token_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests
+creating build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/tests/display/revocation_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/tests/display/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/tests/display/enhancements_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/tests/display/ops_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/tests/display/util_test.py -> build/bdist.linux-i686/egg/letsencrypt/client/tests/display
+copying build/lib/letsencrypt/client/configuration.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/revoker.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/challenge_util.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/crypto_util.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/errors.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/augeas_configurator.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/auth_handler.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/le_util.py -> build/bdist.linux-i686/egg/letsencrypt/client
+copying build/lib/letsencrypt/client/interfaces.py -> build/bdist.linux-i686/egg/letsencrypt/client
+creating build/bdist.linux-i686/egg/letsencrypt/client/display
+copying build/lib/letsencrypt/client/display/ops.py -> build/bdist.linux-i686/egg/letsencrypt/client/display
+copying build/lib/letsencrypt/client/display/__init__.py -> build/bdist.linux-i686/egg/letsencrypt/client/display
+copying build/lib/letsencrypt/client/display/util.py -> build/bdist.linux-i686/egg/letsencrypt/client/display
+copying build/lib/letsencrypt/client/display/enhancements.py -> build/bdist.linux-i686/egg/letsencrypt/client/display
+copying build/lib/letsencrypt/client/display/revocation.py -> build/bdist.linux-i686/egg/letsencrypt/client/display
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/scripts/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/scripts/main.py to main.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/other_test.py to other_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/messages.py to messages.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/util.py to util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/errors.py to errors.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/jose_test.py to jose_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/util_test.py to util_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/other.py to other.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/interfaces.py to interfaces.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/jose.py to jose.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/acme/messages_test.py to messages_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/recovery_token.py to recovery_token.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/reverter.py to reverter.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/client_authenticator.py to client_authenticator.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/constants.py to constants.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/standalone_authenticator.py to standalone_authenticator.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/network.py to network.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/client.py to client.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/log.py to log.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/apache/parser.py to parser.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/apache/obj.py to obj.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/apache/dvsni.py to dvsni.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/apache/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/apache/configurator.py to configurator.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/log_test.py to log_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/reverter_test.py to reverter_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/standalone_authenticator_test.py to standalone_authenticator_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/client_authenticator_test.py to client_authenticator_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/crypto_util_test.py to crypto_util_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/client_test.py to client_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/revoker_test.py to revoker_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/auth_handler_test.py to auth_handler_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/le_util_test.py to le_util_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/configurator_test.py to configurator_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/obj_test.py to obj_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/util.py to util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/dvsni_test.py to dvsni_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/apache/parser_test.py to parser_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/configuration_test.py to configuration_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/acme_util.py to acme_util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/challenge_util_test.py to challenge_util_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/recovery_token_test.py to recovery_token_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/display/revocation_test.py to revocation_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/display/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/display/enhancements_test.py to enhancements_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/display/ops_test.py to ops_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/tests/display/util_test.py to util_test.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/configuration.py to configuration.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/revoker.py to revoker.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/challenge_util.py to challenge_util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/crypto_util.py to crypto_util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/errors.py to errors.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/augeas_configurator.py to augeas_configurator.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/auth_handler.py to auth_handler.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/le_util.py to le_util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/interfaces.py to interfaces.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/display/ops.py to ops.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/display/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/display/util.py to util.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/display/enhancements.py to enhancements.pyc
+byte-compiling build/bdist.linux-i686/egg/letsencrypt/client/display/revocation.py to revocation.pyc
+creating build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/PKG-INFO -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/SOURCES.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/dependency_links.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/entry_points.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/not-zip-safe -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/requires.txt -> build/bdist.linux-i686/egg/EGG-INFO
+copying letsencrypt.egg-info/top_level.txt -> build/bdist.linux-i686/egg/EGG-INFO
+creating dist
+creating 'dist/letsencrypt-0.1-py2.7.egg' and adding 'build/bdist.linux-i686/egg' to it
+removing 'build/bdist.linux-i686/egg' (and everything under it)
+Processing letsencrypt-0.1-py2.7.egg
+creating /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/letsencrypt-0.1-py2.7.egg
+Extracting letsencrypt-0.1-py2.7.egg to /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages
+Adding letsencrypt 0.1 to easy-install.pth file
+Installing letsencrypt script to /home/aaronngray/letsencrypt/venv/bin
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/letsencrypt-0.1-py2.7.egg
+Processing dependencies for letsencrypt==0.1
+Searching for M2Crypto
+Reading https://pypi.python.org/simple/M2Crypto/
+Best match: M2Crypto 0.22.3
+Downloading https://pypi.python.org/packages/source/M/M2Crypto/M2Crypto-0.22.3.tar.gz#md5=573f21aaac7d5c9549798e72ffcefedd
+Processing M2Crypto-0.22.3.tar.gz
+Writing /tmp/easy_install-5Gk9HB/M2Crypto-0.22.3/setup.cfg
+Running M2Crypto-0.22.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-5Gk9HB/M2Crypto-0.22.3/egg-dist-tmp-JqCnei
+SWIG/_bio.i:64: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_rand.i:21: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_evp.i:160: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_dh.i:36: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_rsa.i:43: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_dsa.i:31: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_ssl.i:212: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_x509.i:323: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_pkcs7.i:44: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_pkcs7.i:44: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_util.i:11: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_ec.i:111: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_engine.i:168: Warning 454: Setting a pointer/reference variable may leak memory.
+SWIG/_m2crypto_wrap.c: In function ‘x509v3_lhash’:
+SWIG/_m2crypto_wrap.c:6368:5: warning: return from incompatible pointer type
+     return lh_new(NULL, NULL); /* Should probably be lh_CONF_VALUE_new but won't compile. */
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘mpi_to_bn’:
+SWIG/_m2crypto_wrap.c:3571:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return BN_mpi2bn(vbuf, vlen, NULL);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘bin_to_bn’:
+SWIG/_m2crypto_wrap.c:3597:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return BN_bin2bn(vbuf, vlen, NULL);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘bio_write’:
+SWIG/_m2crypto_wrap.c:3877:9: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     ret = BIO_write(bio, fbuf, flen);
+         ^
+SWIG/_m2crypto_wrap.c: In function ‘rand_seed’:
+SWIG/_m2crypto_wrap.c:4095:5: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     RAND_seed(buf, len);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘rand_add’:
+SWIG/_m2crypto_wrap.c:4107:5: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     RAND_add(buf, len, entropy);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘pkcs5_pbkdf2_hmac_sha1’:
+SWIG/_m2crypto_wrap.c:4224:5: warning: ‘saltlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     PKCS5_PBKDF2_HMAC_SHA1(passbuf, passlen, saltbuf, saltlen, iter,
+     ^
+SWIG/_m2crypto_wrap.c:4224:5: warning: ‘passlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c: In function ‘hmac_init’:
+SWIG/_m2crypto_wrap.c:4296:5: warning: ‘klen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     HMAC_Init(ctx, kbuf, klen, md);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘hmac’:
+SWIG/_m2crypto_wrap.c:4344:5: warning: ‘klen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     HMAC(md, kbuf, klen, dbuf, dlen, blob, &blen);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘bytes_to_key’:
+SWIG/_m2crypto_wrap.c:4382:10: warning: ‘dlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     klen = EVP_BytesToKey(cipher, md, (unsigned char *)sbuf, 
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘cipher_update’:
+SWIG/_m2crypto_wrap.c:4420:10: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!EVP_CipherUpdate(ctx, obuf, &olen, (unsigned char *)buf, len)) {
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘verify_final’:
+SWIG/_m2crypto_wrap.c:4505:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return EVP_VerifyFinal(ctx, kbuf, len, pkey);
+            ^
+SWIG/_m2crypto_wrap.c: In function ‘rc4_set_key’:
+SWIG/_m2crypto_wrap.c:4735:5: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     RC4_set_key(key, vlen, vbuf);
+     ^
+SWIG/_m2crypto_wrap.c: In function ‘dh_compute_key’:
+SWIG/_m2crypto_wrap.c:4828:8: warning: ‘pklen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(pk = BN_mpi2bn((unsigned char *)pkbuf, pklen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dh_set_p’:
+SWIG/_m2crypto_wrap.c:4889:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dh_set_g’:
+SWIG/_m2crypto_wrap.c:4908:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_set_e’:
+SWIG/_m2crypto_wrap.c:5006:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_set_n’:
+SWIG/_m2crypto_wrap.c:5025:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_set_e_bin’:
+SWIG/_m2crypto_wrap.c:5044:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_bin2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_set_n_bin’:
+SWIG/_m2crypto_wrap.c:5063:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_bin2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_private_encrypt’:
+SWIG/_m2crypto_wrap.c:5087:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     tlen = RSA_private_encrypt(flen, (unsigned char *)fbuf, 
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_public_decrypt’:
+SWIG/_m2crypto_wrap.c:5112:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     tlen = RSA_public_decrypt(flen, (unsigned char *)fbuf, 
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_public_encrypt’:
+SWIG/_m2crypto_wrap.c:5137:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     tlen = RSA_public_encrypt(flen, (unsigned char *)fbuf, 
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘rsa_private_decrypt’:
+SWIG/_m2crypto_wrap.c:5162:10: warning: ‘flen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     tlen = RSA_private_decrypt(flen, (unsigned char *)fbuf, 
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_set_p’:
+SWIG/_m2crypto_wrap.c:5419:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_set_q’:
+SWIG/_m2crypto_wrap.c:5438:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_set_g’:
+SWIG/_m2crypto_wrap.c:5457:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(bn = BN_mpi2bn((unsigned char *)vbuf, vlen, NULL))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_sign’:
+SWIG/_m2crypto_wrap.c:5549:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(sig = DSA_do_sign(vbuf, vlen, dsa))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_verify’:
+SWIG/_m2crypto_wrap.c:5584:20: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(sig->s = BN_mpi2bn((unsigned char *)sbuf, slen, NULL))) {
+                    ^
+SWIG/_m2crypto_wrap.c:5579:20: warning: ‘rlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(sig->r = BN_mpi2bn((unsigned char *)rbuf, rlen, NULL))) {
+                    ^
+SWIG/_m2crypto_wrap.c:5589:9: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     ret = DSA_do_verify(vbuf, vlen, sig, dsa);
+         ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_sign_asn1’:
+SWIG/_m2crypto_wrap.c:5610:10: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!DSA_sign(0, vbuf, vlen, (unsigned char *)sigbuf, &siglen, dsa)) {
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘dsa_verify_asn1’:
+SWIG/_m2crypto_wrap.c:5630:8: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if ((ret = DSA_verify(0, vbuf, vlen, sbuf, slen, dsa)) == -1)
+        ^
+SWIG/_m2crypto_wrap.c:5630:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+SWIG/_m2crypto_wrap.c: In function ‘ssl_ctx_set_session_id_context’:
+SWIG/_m2crypto_wrap.c:5769:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return SSL_CTX_set_session_id_context(ctx, buf, len);
+            ^
+SWIG/_m2crypto_wrap.c: In function ‘ssl_set_session_id_context’:
+SWIG/_m2crypto_wrap.c:5838:12: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return SSL_set_session_id_context(ssl, buf, len);
+            ^
+SWIG/_m2crypto_wrap.c: In function ‘ssl_write’:
+SWIG/_m2crypto_wrap.c:6041:7: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     r = SSL_write(ssl, buf, len);
+       ^
+SWIG/_m2crypto_wrap.c: In function ‘ssl_write_nbio’:
+SWIG/_m2crypto_wrap.c:6086:7: warning: ‘len’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     r = SSL_write(ssl, buf, len);
+       ^
+SWIG/_m2crypto_wrap.c: In function ‘ecdsa_sign’:
+SWIG/_m2crypto_wrap.c:7008:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!(sig = ECDSA_do_sign(vbuf, vlen, key))) {
+        ^
+SWIG/_m2crypto_wrap.c: In function ‘ecdsa_verify’:
+SWIG/_m2crypto_wrap.c:7043:10: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!BN_mpi2bn((unsigned char *)sbuf, slen, sig->s)) {
+          ^
+SWIG/_m2crypto_wrap.c:7038:10: warning: ‘rlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!BN_mpi2bn((unsigned char *)rbuf, rlen, sig->r)) {
+          ^
+SWIG/_m2crypto_wrap.c:7048:9: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     ret = ECDSA_do_verify(vbuf, vlen, sig, key);
+         ^
+SWIG/_m2crypto_wrap.c: In function ‘ecdsa_sign_asn1’:
+SWIG/_m2crypto_wrap.c:7070:10: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (!ECDSA_sign(0, vbuf, vlen, (unsigned char *)sigbuf, &siglen, key)) {
+          ^
+SWIG/_m2crypto_wrap.c: In function ‘ecdsa_verify_asn1’:
+SWIG/_m2crypto_wrap.c:7091:8: warning: ‘slen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if ((ret = ECDSA_verify(0, vbuf, vlen, sbuf, slen, key)) == -1)
+        ^
+SWIG/_m2crypto_wrap.c:7091:8: warning: ‘vlen’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+zip_safe flag not set; analyzing archive contents...
+Adding M2Crypto 0.22.3 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/M2Crypto-0.22.3-py2.7-linux-i686.egg
+Searching for zope.interface
+Reading https://pypi.python.org/simple/zope.interface/
+Best match: zope.interface 4.1.2
+Downloading https://pypi.python.org/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz#md5=04298faeaa70b4f3b23fa2ae8987262c
+Processing zope.interface-4.1.2.tar.gz
+Writing /tmp/easy_install-Cbd03s/zope.interface-4.1.2/setup.cfg
+Running zope.interface-4.1.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Cbd03s/zope.interface-4.1.2/egg-dist-tmp-hUCwei
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Adding zope.interface 4.1.2 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/zope.interface-4.1.2-py2.7-linux-i686.egg
+Searching for zope.component
+Reading https://pypi.python.org/simple/zope.component/
+Best match: zope.component 4.2.1
+Downloading https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.1.tar.gz#md5=cf55d496428d976f9329a4a2330a8b54
+Processing zope.component-4.2.1.tar.gz
+Writing /tmp/easy_install-SXVMom/zope.component-4.2.1/setup.cfg
+Running zope.component-4.2.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-SXVMom/zope.component-4.2.1/egg-dist-tmp-cgXrp2
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Adding zope.component 4.2.1 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/zope.component-4.2.1-py2.7.egg
+Searching for requests
+Reading https://pypi.python.org/simple/requests/
+Best match: requests 2.5.3
+Downloading https://pypi.python.org/packages/source/r/requests/requests-2.5.3.tar.gz#md5=23bf4fcc89ea8d353eb5353bb4a475b1
+Processing requests-2.5.3.tar.gz
+Writing /tmp/easy_install-N36lEd/requests-2.5.3/setup.cfg
+Running requests-2.5.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-N36lEd/requests-2.5.3/egg-dist-tmp-vpHvkd
+Adding requests 2.5.3 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/requests-2.5.3-py2.7.egg
+Searching for python2-pythondialog
+Reading https://pypi.python.org/simple/python2-pythondialog/
+Best match: python2-pythondialog 3.0.1
+Downloading https://pypi.python.org/packages/source/p/python2-pythondialog/python2-pythondialog-3.0.1.tar.gz#md5=89d8cc7cee4ccfc418969feaff5e9192
+Processing python2-pythondialog-3.0.1.tar.gz
+Writing /tmp/easy_install-QaDoNW/python2-pythondialog-3.0.1/setup.cfg
+Running python2-pythondialog-3.0.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-QaDoNW/python2-pythondialog-3.0.1/egg-dist-tmp-BPnevk
+No .git directory, using the 'ChangeLog' file as is.
+zip_safe flag not set; analyzing archive contents...
+Adding python2-pythondialog 3.0.1 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/python2_pythondialog-3.0.1-py2.7.egg
+Searching for python-augeas
+Reading https://pypi.python.org/simple/python-augeas/
+Best match: python-augeas 0.5.0
+Downloading https://pypi.python.org/packages/source/p/python-augeas/python-augeas-0.5.0.tar.gz#md5=2d5a903467410b8d60abca5fa54bae2d
+Processing python-augeas-0.5.0.tar.gz
+Writing /tmp/easy_install-Hxw8Fd/python-augeas-0.5.0/setup.cfg
+Running python-augeas-0.5.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Hxw8Fd/python-augeas-0.5.0/egg-dist-tmp-_DZEXn
+zip_safe flag not set; analyzing archive contents...
+Adding python-augeas 0.5.0 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/python_augeas-0.5.0-py2.7.egg
+Searching for PyOpenSSL
+Reading https://pypi.python.org/simple/PyOpenSSL/
+Best match: pyOpenSSL 0.14
+Downloading https://pypi.python.org/packages/source/p/pyOpenSSL/pyOpenSSL-0.14.tar.gz#md5=8579ff3a1d858858acfba5f046a4ddf7
+Processing pyOpenSSL-0.14.tar.gz
+Writing /tmp/easy_install-5FvbuQ/pyOpenSSL-0.14/setup.cfg
+Running pyOpenSSL-0.14/setup.py -q bdist_egg --dist-dir /tmp/easy_install-5FvbuQ/pyOpenSSL-0.14/egg-dist-tmp-l7sh5z
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+no previously-included directories found matching 'doc/_build'
+zip_safe flag not set; analyzing archive contents...
+Adding pyOpenSSL 0.14 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/pyOpenSSL-0.14-py2.7.egg
+Searching for pycrypto
+Reading https://pypi.python.org/simple/pycrypto/
+Best match: pycrypto 2.6.1
+Downloading https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz#md5=55a61a054aa66812daf5161a0d5d7eda
+Processing pycrypto-2.6.1.tar.gz
+Writing /tmp/easy_install-xD3o28/pycrypto-2.6.1/setup.cfg
+Running pycrypto-2.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-xD3o28/pycrypto-2.6.1/egg-dist-tmp-YCI1RD
+warning: GMP or MPIR library not found; Not building Crypto.PublicKey._fastmath.
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/MD2.c:31:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/MD2.c:30:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/MD2.c:31:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/MD2.c:30:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/MD4.c:31:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/MD4.c:30:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/MD4.c:31:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/MD4.c:30:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA256.c:72:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA256.c:35:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA256.c:72:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA256.c:35:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA224.c:73:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA224.c:36:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA224.c:73:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA224.c:36:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA384.c:80:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA384.c:36:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA384.c:80:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA384.c:36:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA512.c:80:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA512.c:36:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/hash_SHA2_template.c:33,
+                 from src/SHA512.c:80:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/hash_SHA2.h:72,
+                 from src/SHA512.c:36:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/RIPEMD160.c:57:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/RIPEMD160.c:48:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/RIPEMD160.c:57:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/RIPEMD160.c:48:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/AES.c:29:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/AES.c:27:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/AES.c:29:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/AES.c:27:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/ARC2.c:45:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/ARC2.c:44:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/ARC2.c:45:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/string.h:25:0,
+                 from src/ARC2.c:44:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/Blowfish.c:39:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/Blowfish.c:31:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/Blowfish.c:39:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/stdint.h:25:0,
+                 from /usr/lib/gcc/i686-redhat-linux/4.9.2/include/stdint.h:9,
+                 from src/Blowfish.c:31:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/DES.c:37:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/DES.c:37:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/DES.c:37,
+                 from src/DES3.c:26:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32,
+                 from src/DES3.c:26:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/DES.c:37,
+                 from src/DES3.c:26:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/libtom/tomcrypt.h:3,
+                 from src/libtom/tomcrypt_des.c:11,
+                 from src/DES.c:32,
+                 from src/DES3.c:26:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/_counter.c:28:
+/usr/include/python2.7/pyconfig-32.h:1191:0: warning: "_POSIX_C_SOURCE" redefined
+ #define _POSIX_C_SOURCE 200112L
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/_counter.c:25:
+/usr/include/features.h:225:0: note: this is the location of the previous definition
+ # define _POSIX_C_SOURCE 200809L
+ ^
+In file included from /usr/include/python2.7/pyconfig.h:4:0,
+                 from /usr/include/python2.7/Python.h:8,
+                 from src/_counter.c:28:
+/usr/include/python2.7/pyconfig-32.h:1213:0: warning: "_XOPEN_SOURCE" redefined
+ #define _XOPEN_SOURCE 600
+ ^
+In file included from /usr/include/assert.h:35:0,
+                 from src/_counter.c:25:
+/usr/include/features.h:166:0: note: this is the location of the previous definition
+ # define _XOPEN_SOURCE 700
+ ^
+zip_safe flag not set; analyzing archive contents...
+Adding pycrypto 2.6.1 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-i686.egg
+Searching for mock
+Reading https://pypi.python.org/simple/mock/
+Best match: mock 1.0.1
+Downloading https://pypi.python.org/packages/source/m/mock/mock-1.0.1.zip#md5=869f08d003c289a97c1a6610faf5e913
+Processing mock-1.0.1.zip
+Writing /tmp/easy_install-L9Gv9S/mock-1.0.1/setup.cfg
+Running mock-1.0.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-L9Gv9S/mock-1.0.1/egg-dist-tmp-f_dEUR
+warning: no files found matching '*.png' under directory 'docs'
+warning: no files found matching '*.css' under directory 'docs'
+warning: no files found matching '*.html' under directory 'docs'
+warning: no files found matching '*.js' under directory 'docs'
+zip_safe flag not set; analyzing archive contents...
+Adding mock 1.0.1 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg
+Searching for jsonschema
+Reading https://pypi.python.org/simple/jsonschema/
+Best match: jsonschema 2.4.0
+Downloading https://pypi.python.org/packages/source/j/jsonschema/jsonschema-2.4.0.zip#md5=f645c88123189976058fcf550c02e50f
+Processing jsonschema-2.4.0.zip
+Writing /tmp/easy_install-p00lAk/jsonschema-2.4.0/setup.cfg
+Running jsonschema-2.4.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-p00lAk/jsonschema-2.4.0/egg-dist-tmp-rwmbuK
+zip_safe flag not set; analyzing archive contents...
+jsonschema.tests.test_jsonschema_test_suite: module references __file__
+Adding jsonschema 2.4.0 to easy-install.pth file
+Installing jsonschema script to /home/aaronngray/letsencrypt/venv/bin
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/jsonschema-2.4.0-py2.7.egg
+Searching for ConfArgParse
+Reading https://pypi.python.org/simple/ConfArgParse/
+Best match: ConfArgParse 1.0.15
+Downloading https://pypi.python.org/packages/source/C/ConfArgParse/ConfArgParse-1.0.15.tar.gz#md5=80e43ab0bf392dd49c6398706372480e
+Processing ConfArgParse-1.0.15.tar.gz
+Writing /tmp/easy_install-N3NJwX/ConfArgParse-1.0.15/setup.cfg
+Running ConfArgParse-1.0.15/setup.py -q bdist_egg --dist-dir /tmp/easy_install-N3NJwX/ConfArgParse-1.0.15/egg-dist-tmp-oPCxlh
+zip_safe flag not set; analyzing archive contents...
+couldn't run hg so will read version from VERSION file.
+
+assuming that the version is 1.0.15
+Adding ConfArgParse 1.0.15 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/ConfArgParse-1.0.15-py2.7.egg
+Searching for argparse
+Reading https://pypi.python.org/simple/argparse/
+Best match: argparse 1.3.0
+Downloading https://pypi.python.org/packages/source/a/argparse/argparse-1.3.0.tar.gz#md5=9bcf7f612190885c8c85e30ba41db3c7
+Processing argparse-1.3.0.tar.gz
+Writing /tmp/easy_install-RcfiUV/argparse-1.3.0/setup.cfg
+Running argparse-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-RcfiUV/argparse-1.3.0/egg-dist-tmp-cXg4rz
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.orig' found anywhere in distribution
+warning: no previously-included files matching '*.rej' found anywhere in distribution
+no previously-included directories found matching 'doc/_build'
+no previously-included directories found matching 'env24'
+no previously-included directories found matching 'env25'
+no previously-included directories found matching 'env26'
+no previously-included directories found matching 'env27'
+zip_safe flag not set; analyzing archive contents...
+Adding argparse 1.3.0 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/argparse-1.3.0-py2.7.egg
+Searching for zope.event
+Reading https://pypi.python.org/simple/zope.event/
+Best match: zope.event 4.0.3
+Downloading https://pypi.python.org/packages/source/z/zope.event/zope.event-4.0.3.tar.gz#md5=9a3780916332b18b8b85f522bcc3e249
+Processing zope.event-4.0.3.tar.gz
+Writing /tmp/easy_install-n4w7tA/zope.event-4.0.3/setup.cfg
+Running zope.event-4.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-n4w7tA/zope.event-4.0.3/egg-dist-tmp-dk3gNP
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+Adding zope.event 4.0.3 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/zope.event-4.0.3-py2.7.egg
+Searching for six>=1.5.2
+Reading https://pypi.python.org/simple/six/
+Best match: six 1.9.0
+Downloading https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4
+Processing six-1.9.0.tar.gz
+Writing /tmp/easy_install-QG6cFl/six-1.9.0/setup.cfg
+Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-QG6cFl/six-1.9.0/egg-dist-tmp-pufjrU
+no previously-included directories found matching 'documentation/_build'
+zip_safe flag not set; analyzing archive contents...
+six: module references __path__
+Adding six 1.9.0 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+Searching for cryptography>=0.2.1
+Reading https://pypi.python.org/simple/cryptography/
+Best match: cryptography 0.7.2
+Downloading https://pypi.python.org/packages/source/c/cryptography/cryptography-0.7.2.tar.gz#md5=a62beaac9f3a78109dba6d31db98cce9
+Processing cryptography-0.7.2.tar.gz
+Writing /tmp/easy_install-BCcuF_/cryptography-0.7.2/setup.cfg
+Running cryptography-0.7.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BCcuF_/cryptography-0.7.2/egg-dist-tmp-NklNHn
+Searching for enum34
+Reading https://pypi.python.org/simple/enum34/
+Best match: enum34 1.0.4
+Downloading https://pypi.python.org/packages/source/e/enum34/enum34-1.0.4.zip#md5=9843e97527f3126c851df7afeb0524b3
+Processing enum34-1.0.4.zip
+Writing /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-FOCW7l/enum34-1.0.4/setup.cfg
+Running enum34-1.0.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-FOCW7l/enum34-1.0.4/egg-dist-tmp-iPZmPu
+zip_safe flag not set; analyzing archive contents...
+
+Installed /tmp/easy_install-BCcuF_/cryptography-0.7.2/enum34-1.0.4-py2.7.egg
+Searching for pyasn1
+Reading https://pypi.python.org/simple/pyasn1/
+Best match: pyasn1 0.1.7
+Downloading https://pypi.python.org/packages/2.7/p/pyasn1/pyasn1-0.1.7-py2.7.egg#md5=15f079cabee01402bf86ca8b83356469
+Processing pyasn1-0.1.7-py2.7.egg
+Moving pyasn1-0.1.7-py2.7.egg to /tmp/easy_install-BCcuF_/cryptography-0.7.2
+
+Installed /tmp/easy_install-BCcuF_/cryptography-0.7.2/pyasn1-0.1.7-py2.7.egg
+Searching for cffi>=0.8
+Reading https://pypi.python.org/simple/cffi/
+Best match: cffi 0.8.6
+Downloading https://pypi.python.org/packages/source/c/cffi/cffi-0.8.6.tar.gz#md5=474b5a68299a6f05009171de1dc91be6
+Processing cffi-0.8.6.tar.gz
+Writing /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-TMtwON/cffi-0.8.6/setup.cfg
+Running cffi-0.8.6/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-TMtwON/cffi-0.8.6/egg-dist-tmp-Im_sMx
+compiling '_configtest.c':
+__thread int some_threadlocal_variable_42;
+
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m32 -march=i686 -mtune=atom -fasynchronous-unwind-tables -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m32 -march=i686 -mtune=atom -fasynchronous-unwind-tables -D_GNU_SOURCE -fPIC -fwrapv -fPIC -c _configtest.c -o _configtest.o
+success!
+removing: _configtest.c _configtest.o
+
+Installed /tmp/easy_install-BCcuF_/cryptography-0.7.2/cffi-0.8.6-py2.7-linux-i686.egg
+Searching for pycparser
+Reading https://pypi.python.org/simple/pycparser/
+Best match: pycparser 2.10
+Downloading https://pypi.python.org/packages/source/p/pycparser/pycparser-2.10.tar.gz#md5=d87aed98c8a9f386aa56d365fe4d515f
+Processing pycparser-2.10.tar.gz
+Writing /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-0H6q4k/pycparser-2.10/setup.cfg
+Running pycparser-2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BCcuF_/cryptography-0.7.2/temp/easy_install-0H6q4k/pycparser-2.10/egg-dist-tmp-ZLMfyq
+zip_safe flag not set; analyzing archive contents...
+
+Installed /tmp/easy_install-BCcuF_/cryptography-0.7.2/pycparser-2.10-py2.7.egg
+no previously-included directories found matching 'docs/_build'
+warning: no previously-included files matching '*' found under directory 'vectors'
+Adding cryptography 0.7.2 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/cryptography-0.7.2-py2.7-linux-i686.egg
+Searching for enum34
+Reading https://pypi.python.org/simple/enum34/
+Best match: enum34 1.0.4
+Downloading https://pypi.python.org/packages/source/e/enum34/enum34-1.0.4.zip#md5=9843e97527f3126c851df7afeb0524b3
+Processing enum34-1.0.4.zip
+Writing /tmp/easy_install-q6tvTC/enum34-1.0.4/setup.cfg
+Running enum34-1.0.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-q6tvTC/enum34-1.0.4/egg-dist-tmp-PtoGl9
+zip_safe flag not set; analyzing archive contents...
+Adding enum34 1.0.4 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/enum34-1.0.4-py2.7.egg
+Searching for pyasn1
+Reading https://pypi.python.org/simple/pyasn1/
+Best match: pyasn1 0.1.7
+Downloading https://pypi.python.org/packages/2.7/p/pyasn1/pyasn1-0.1.7-py2.7.egg#md5=15f079cabee01402bf86ca8b83356469
+Processing pyasn1-0.1.7-py2.7.egg
+creating /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/pyasn1-0.1.7-py2.7.egg
+Extracting pyasn1-0.1.7-py2.7.egg to /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages
+Adding pyasn1 0.1.7 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/pyasn1-0.1.7-py2.7.egg
+Searching for cffi>=0.8
+Reading https://pypi.python.org/simple/cffi/
+Best match: cffi 0.8.6
+Downloading https://pypi.python.org/packages/source/c/cffi/cffi-0.8.6.tar.gz#md5=474b5a68299a6f05009171de1dc91be6
+Processing cffi-0.8.6.tar.gz
+Writing /tmp/easy_install-s6wH1O/cffi-0.8.6/setup.cfg
+Running cffi-0.8.6/setup.py -q bdist_egg --dist-dir /tmp/easy_install-s6wH1O/cffi-0.8.6/egg-dist-tmp-7EJOcv
+compiling '_configtest.c':
+__thread int some_threadlocal_variable_42;
+
+gcc -pthread -fno-strict-aliasing -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m32 -march=i686 -mtune=atom -fasynchronous-unwind-tables -D_GNU_SOURCE -fPIC -fwrapv -DNDEBUG -O2 -g -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -fexceptions -fstack-protector-strong --param=ssp-buffer-size=4 -grecord-gcc-switches -m32 -march=i686 -mtune=atom -fasynchronous-unwind-tables -D_GNU_SOURCE -fPIC -fwrapv -fPIC -c _configtest.c -o _configtest.o
+success!
+removing: _configtest.c _configtest.o
+Adding cffi 0.8.6 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/cffi-0.8.6-py2.7-linux-i686.egg
+Searching for pycparser
+Reading https://pypi.python.org/simple/pycparser/
+Best match: pycparser 2.10
+Downloading https://pypi.python.org/packages/source/p/pycparser/pycparser-2.10.tar.gz#md5=d87aed98c8a9f386aa56d365fe4d515f
+Processing pycparser-2.10.tar.gz
+Writing /tmp/easy_install-2yndqz/pycparser-2.10/setup.cfg
+Running pycparser-2.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-2yndqz/pycparser-2.10/egg-dist-tmp-gzYNRJ
+zip_safe flag not set; analyzing archive contents...
+Adding pycparser 2.10 to easy-install.pth file
+
+Installed /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages/pycparser-2.10-py2.7.egg
+Searching for setuptools==3.6
+Best match: setuptools 3.6
+Adding setuptools 3.6 to easy-install.pth file
+Installing easy_install-3.4 script to /home/aaronngray/letsencrypt/venv/bin
+Installing easy_install script to /home/aaronngray/letsencrypt/venv/bin
+
+Using /home/aaronngray/letsencrypt/venv/lib/python2.7/site-packages
+Finished processing dependencies for letsencrypt==0.1
